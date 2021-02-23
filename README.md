@@ -2,7 +2,7 @@
 Legacy protocol of Multiplayer Piano  
 The types used here are [TypeScript types](https://www.typescriptlang.org/docs/handbook/basic-types.html).  
 
-Other types:
+## Custom types:
 ### note
 | Parameter |  Type   |       Description        |
 |-----------|---------|--------------------------|
