@@ -120,6 +120,12 @@ Sends a **ch**ange **own**ership request to the server.
 |-----------|--------|-------------------------------------------------------|
 |    id     | string | Used when transferring the crown. Drops it otherwise. |
 
+### unban
+Unbans a person from the room
+| Parameter |  Type  |   Description   |
+|-----------|--------|-----------------|
+|    \_id    | String | userId to unban |
+
 ### n
 Sends the client's note buffer to the server.
 | Parameter |  Type  |             Description              |
