@@ -124,7 +124,7 @@ Sends a **ch**ange **own**ership request to the server.
 Unbans a person from the room
 | Parameter |  Type  |   Description   |
 |-----------|--------|-----------------|
-|    \_id    | String | userId to unban |
+|    \_id    | string | userId to unban |
 
 ### n
 Sends the client's note buffer to the server.
