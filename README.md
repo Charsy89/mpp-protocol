@@ -100,10 +100,10 @@ Tells the server you want to listen for rooms. The server first will send back a
 (no parameters)
 
 ### -ls
-Tells the server you don't want to listen for rooms anymore.
+Tells the server you don't want to listen for rooms anymore. (no parameters)
 
 ### t
-Used to sync time between the client and the server. Must be sent in under 40~ seconds after the last ping, or after connecting.
+Used to sync time between the client and the server. Must be sent in under ~40 seconds after the last ping, or after connecting.
 | Parameter |  Type  |         Description          |
 |-----------|--------|------------------------------|
 |     e     | number | Client time in milliseconds. |
