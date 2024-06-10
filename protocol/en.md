@@ -176,7 +176,7 @@ Note quota information.
 | max | int | Maximum amount of points. | |
 | maxHistLen | int | Maximum history length. | |
 
-> Note quota is returned at a tick rate of 2000ms.
+> Note quota is replenished at a tick rate of 2000ms.
 
 > Note quota keeps track of point history according to the `maxHistLen` property. Current points are added to an array each tick. When spending quota, array entries are added to a sum. If the sum is <= 0, the amount the client is trying to spend is multiplied by the `allowance`.
 
@@ -242,7 +242,7 @@ Ban a client from the room.
 | Property | Type | Description | Valid data |
 |---|---|---|---|
 | \_id | string | [_userId_](#types-of-ids) of the client to ban. | |
-| ms | number | How long the ban will last, in milliseconds. | |
+| ms | int | How long the ban will last, in milliseconds. | |
 
 > Banned clients are sent to the room "test/awkward" with a [short](#sc-notification) notification telling them they've been banned from the room, and for how long.  
 > The server sends another [short](#sc-notification) notification to the original room, notifying other clients of who was banned, and for how long.
